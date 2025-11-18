@@ -75,7 +75,7 @@ export function Content({ nonce }: { nonce: string | undefined }) {
             printOptions: { nonce },
             imageExportOptions: [
               { type: "image/png", nonce },
-              { type: "image/jpg", nonce },
+              { type: "image/jpeg", nonce },
               { type: "image/webp", nonce },
             ],
           },
