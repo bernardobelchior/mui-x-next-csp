@@ -80,6 +80,7 @@ export function Content({ nonce }: { nonce: string | undefined }) {
             ],
           },
         }}
+        sx={{ background: "white" }}
       />
       <Typography variant="caption">Source: World Bank</Typography>
     </Stack>
